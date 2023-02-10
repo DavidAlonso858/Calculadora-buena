@@ -40,7 +40,8 @@ public class Calculadora {
     }
     
     public int resta(int op1, int op2){
-        return (op1 - op2);
+        setResultado(op1 - op2);
+        return getResultado();
     }
     
     public int multiplica(int op1, int op2){
