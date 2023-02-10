@@ -38,17 +38,14 @@ public class Calculadora {
         setResultado(op1 + op2);
         return getResultado();
     }
-<<<<<<< HEAD
+
     
     public int resta(int op1, int op2){
         setResultado(op1 - op2);
         return getResultado();
-=======
 
-    public int resta(int op1, int op2) {
-        return (op1 - op2);
->>>>>>> 2059623a439169a771a455c28ef16e58444afa68
     }
+
 
     public int multiplica(int op1, int op2) {
 
@@ -57,7 +54,9 @@ public class Calculadora {
     }
 
     public int divide(int op1, int op2) {
-        return (op1 / op2);
+        setResultado(op1 / op2);
+        return getResultado();
+
     }
 
 }
